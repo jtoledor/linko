@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height:400px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.content-list{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.content-item{
+  text-align: center;
+  font-size: 16px;
+  margin: 15px 0px !important;
+}
+
+.content-item:hover{
+  background-color: rgba(212, 212, 212, 0.568);
+  cursor: pointer;
+}
+
+.price{
+  font-weight: 700;
+}
+
+.img-item{
+  text-align: center;
+}
+
+.item-title{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.item-price{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.item-description{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.content{
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+.title{
+  margin: 55px 0px;
+  font-weight: 400;
+  font-size: 26px;
+  font-style: italic;
+}
+
+#loading{
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+#loading>div{
+  position: absolute;
+  color: rgb(35, 87, 87);
+  align-content: center;
+  text-align: center;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn-car{
+  float: right;
+  background-color: black !important;
+  color: white ;
+}
+
+.mt-3{
+  margin-top: 35px !important;
+}
+
+.cantidad{
+  width: 55px !important;
+  background-color: aliceblue;
+}
